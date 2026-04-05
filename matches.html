@@ -12,6 +12,12 @@
 <body>
 
   <header>
+
+    <div class="site-header">
+    <a href="home.html" class="brand">
+      <img src="Images/logo.png" alt="ManUtdZone logo" class="logo">
+      <span class="site-name">ManUtdZone</span>
+    </a>
     <nav>
     <a href="home.html">Home</a>
     <a href="currentsquad.html">Current Squad</a>
@@ -47,7 +53,7 @@
 
 
   
-<section class="expandable-section" id="results">
+<section class="expandable-section active" id="results">
   <div class="container">
 
     <div class="section-header" tabindex="0" aria-expanded="false">
@@ -150,10 +156,10 @@
 
 
  
-  <section class="expandable-section" id="fixtures">
+  <section class="expandable-section active" id="fixtures">
   <div class="container">
 
-    <div class="section-header" aria-expanded="false">
+    <div class="section-header" tabindex="0" aria-expanded="false">
       <h2>Fixtures</h2>
       <span class="toggle-icon">+</span>
     </div>
@@ -240,14 +246,20 @@
   </section>
 
 </main>
-  <footer>
+    <footer>
+
+    <div class="footer-brand">
+    <img src="Images/logo.png" alt="ManUtdZone logo" class="logo">
+    <span class="site-name">ManUtdZone</span>
+    </div>
+
     <nav class="footer-nav">
     <a href="home.html">Home</a>
     <a href="currentsquad.html">Current Squad</a>
     <a href="clubhistory.html">Club History</a>
     <a href="matches.html">Matches</a>
     </nav>
-    <p>© 2026 My Website</p>
+    <p>© 2026 ManUtdZone</p>
   </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>  
 <script src="main.js"></script>
